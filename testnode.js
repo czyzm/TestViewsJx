@@ -4,7 +4,7 @@
 
 var PouchDB = require('pouchdb'),
     Q = require('q'),
-    numberOfDocuments = 15000,
+    numberOfDocuments = 10000,
     localDb;
 
 function callWithLog(fn, message) {

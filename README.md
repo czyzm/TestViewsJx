@@ -1,4 +1,5 @@
 # TestViewsJx
+Test PouchDB views using jxcore and leveldown-mobile
 
 ## Install dependencies
 `jx install`
