@@ -98,13 +98,13 @@ function findInDb () {
 
 callWithLog(createDatabase, 'Create database')
     .then(function () {
-        return callWithLog(addData, 'Add data');
-    })
-    .then(function () {
         if (useDbFind) {
             return callWithLog(addIndex, 'Add index');
         }
         return callWithLog(addView, 'Add view');
+    })
+    .then(function () {
+        return callWithLog(addData, 'Add data');
     })
     .then(function () {
         if (useDbFind) {
