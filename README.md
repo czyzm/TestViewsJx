@@ -5,4 +5,6 @@ Test PouchDB views using jxcore and leveldown-mobile
 `jx install`
 
 ## Run the test
-`jx testnode.js`
+Test with view and db.query: `jx testnode.js`
+
+Test with index using pouchdb-find: `jx testnode.js --find`
